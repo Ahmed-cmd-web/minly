@@ -1,0 +1,38 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 95%;
+  height: 400px;
+}
+
+.postContainer:hover {
+  transition-duration: 0.2s;
+  scale: 1.05;
+}
+
+.reactionContainer {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reactionButton:hover {
+  opacity: 0.4;
+}
+
+.icons:hover {
+  pointer-events: cursor;
+}
+
+.editIcon,
+.deleteIcon {
+  cursor: pointer;
+}
+.editIcon:hover,
+.deleteIcon:hover {
+  opacity: 0.4;
+}

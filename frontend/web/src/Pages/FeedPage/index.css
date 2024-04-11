@@ -1,0 +1,24 @@
+.feedContainer {
+  display: grid;
+  width: 100%;
+  height: fit-content;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 10px;
+  position: relative;
+  justify-items: center;
+  padding-bottom: 20px;
+}
+
+.uploadButton {
+  position: fixed;
+  right: 1%;
+  bottom: 5%;
+}
+
+.uploadIcon {
+  font-size: 30px;
+}
+
+.modalUploadButton {
+  width: 100%;
+}
