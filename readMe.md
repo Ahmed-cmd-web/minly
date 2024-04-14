@@ -1,8 +1,19 @@
 # Minly Software Development Engineer Take-Home Assignment
 
 ## Setup
-
 - create a cloudinary account
+
+
+### Automatic Setup
+ run the following bash script in your shell (executing the script might vary according to OS).
+
+- MACOS and Linux:
+```
+ . ./setup.bash
+```
+
+
+### Manual Setup
 - Clone the repository
 - add a .env file each of the following directories
   - backend/.env
